@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.min.css">
+  <link href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="btn-area">
+      <button class="btn mark-btn" data-mark="氏名" name="name">名前</button>
+      <button class="btn mark-btn" data-mark="とし" name="age">年齢</button>
+      <button class="btn mark-btn" data-mark="性別" name="sex">性別</button>
+    </div>
+    <div class="text-area">
+      <div class="text-input" contenteditable="true" aria-multiline="true"></div>
+    </div>
+
+    <button id="submit" class="btn btn-submit">送信</button>
+
+    <div class="test">
+      <textarea name="" id="" cols="20"></textarea>
+    </div>
+
+  </div>
+
+
+  <script src="./index.js" defer></script>
+
+</body>
+</html>

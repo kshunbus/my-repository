@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "textarea-markdown": "^1.5.1",
+    "typescript": "^5.5.2"
+  },
+  "name": "gitwork",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
